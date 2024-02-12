@@ -2,3 +2,5 @@ theme: minima
 title: Fearnworks Blog
 author: jphillips
 description: A simple blog for sharing posts
+include:
+  - "_pages"
