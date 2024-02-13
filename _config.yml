@@ -2,8 +2,31 @@ theme: minima
 title: Fearnworks Blog
 author: jphillips
 description: A simple blog for sharing posts
+
+# Include custom directories
 include:
   - "_pages"
-  - "_posts"
-  - "_drafts"
-  - "_layouts"
+
+# Exclude files or folders from the build
+exclude:
+  - "node_modules/"
+  - "vendor/"
+
+# Plugins (if you're using GitHub Pages, only plugins supported by GitHub Pages will work)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+# SEO Tag settings
+seo_tag:
+  type: "blog"
+
+# Feed settings
+feed:
+  path: "feed.xml"
+
+# Sitemap settings
+sitemap:
+  exclude:
+    - "404.html"
