@@ -15,16 +15,17 @@ exclude:
 # Plugins (if you're using GitHub Pages, only plugins supported by GitHub Pages will work)
 plugins:
   - jekyll-seo-tag
-  - jekyll-feed
+  # - jekyll-feed
   - jekyll-sitemap
+  - jekyll-octicons
 
 # SEO Tag settings
 seo_tag:
   type: "blog"
 
-# Feed settings
-feed:
-  path: "feed.xml"
+# # Feed settings
+# feed:
+#   path: "feed.xml"
 
 # Sitemap settings
 sitemap:
