@@ -11,9 +11,11 @@ In this post we will explore the python library DSPy. DSPy is an innovative appr
 DSPy consists of a number of simple composable functions for implementing in-context learning (ICL)  systems as deliberate programs – instead of end-task prompts—for solving knowledge intensive tasks. DSPy is the current implementation of this ICL Compiler  
 
 ## Introducing DSPy:
-1) Modularizing System Flow: DSPy abstracts the program's logic into discrete modules, clearly separating the algorithmic flow from the underlying parameters like LM prompts and weights. This modular approach allows for greater flexibility and reusability of components, facilitating easier updates and modifications without the need to start from scratch.
+DSPy revolutionizes this process by fundamentally rethinking the relationship between the flow of a program and the parameters that guide it. It distinguishes itself by doing two critical things: 
 
-2) Introducing Powerful Optimizers: Where DSPy truly shines is in its suite of LM-driven optimizers. These advanced algorithms are designed to dynamically adjust LM prompts and weights to optimize for a specific metric, be it accuracy, efficiency, or avoiding known failure modes. Through this optimization process, DSPy can effectively "teach" both powerful and localized models (from giants like GPT-3.5 and GPT-4 to T5-base and Llama2-13b) to perform tasks with a level of reliability and quality previously unattainable.
+    1) Modularizing System Flow: DSPy abstracts the program's logic into discrete modules, clearly separating the algorithmic flow from the underlying parameters like LM prompts and weights. This modular approach allows for greater flexibility and reusability of components, facilitating easier updates and modifications without the need to start from scratch.
+
+    2) Introducing Powerful Optimizers: Where DSPy truly shines is in its suite of LM-driven optimizers. These advanced algorithms are designed to dynamically adjust LM prompts and weights to optimize for a specific metric, be it accuracy, efficiency, or avoiding known failure modes. Through this optimization process, DSPy can effectively "teach" both powerful and localized models (from giants like GPT-3.5 and GPT-4 to T5-base and Llama2-13b) to perform tasks with a level of reliability and quality previously unattainable.
 
 The Result: Less Prompting, Higher Scores, Systematic Solutions
 
