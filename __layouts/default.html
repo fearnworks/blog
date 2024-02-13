@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title | default: site.title | escape }}</title>
+  <!-- include SEO tags, stylesheets, etc. -->
+</head>
+<body>
+  <header>
+    {% include header.html %}
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    {% include footer.html %}
+  </footer>
+</body>
+</html>

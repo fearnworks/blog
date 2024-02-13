@@ -4,3 +4,6 @@ author: jphillips
 description: A simple blog for sharing posts
 include:
   - "_pages"
+  - "_posts"
+  - "_drafts"
+  - "_layouts"

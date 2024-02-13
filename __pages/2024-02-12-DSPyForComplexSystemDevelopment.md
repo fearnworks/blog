@@ -1,6 +1,7 @@
 ---
 title: "DSPy: Revolutionizing Complex System Development with Language Models"
 date: 2024-02-12
+layout: post
 ---
 ![DSPy: Revolutionizing Complex System Development with Language Models](000_featured_image.png)
 Traditionally, building a complex system with LMs involves a multi-step process that can feel like navigating a labyrinth. Developers must break down the problem into manageable steps, fine-tune prompts and models through trial and error, and constantly adjust to ensure each component interacts seamlessly. This painstaking process is not only time-consuming but also fraught with potential for errors, requiring frequent revisions that can quickly become overwhelming.
