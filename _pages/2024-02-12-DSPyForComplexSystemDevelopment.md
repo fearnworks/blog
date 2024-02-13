@@ -10,7 +10,7 @@ In this post we will explore the Demonstrate-Search-Predict (DSP) and the key li
 
 DSP consists of a number of simple composable functions for implementing in-context learning (ICL)  systems as deliberate programs – instead of end-task prompts—for solving knowledge intensive tasks. DSPy is the current implementation of this ICL Compiler  
 
-## Introducing DSPy: A Revolutionary Frameworkgit p
+## Introducing DSPy:
 At its core, DSPy revolutionizes this process by separating the flow of your program (modules) from the parameters (LM prompts and weights) of each step. It introduces a suite of new optimizers—LM-driven algorithms capable of tuning prompts and weights to maximize a given metric. This means DSPy can teach powerful models like GPT-3.5 or GPT-4, as well as local models like T5-base or Llama2-13b, to perform tasks with unprecedented reliability and quality.
 
 The DSP methodology is structured into three distinct phases: Demonstrate, Search, and Predict. Each phase plays a critical role in guiding LMs to understand and respond to complex queries with a depth of knowledge and reasoning that was previously unattainable without extensive retraining. 
